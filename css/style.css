@@ -126,5 +126,50 @@ body {
       color: #FFFFFF; }
 
 .intro {
-  height: 100vh;
-  background: url(../img/Hero.png) no-repeat center; }
+  height: 962px;
+  background: url(../img/hero.png) no-repeat center;
+  padding-top: 262px; }
+  .intro .intro__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 22px; }
+  .intro .intro__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 59px; }
+  .intro .intro__block1, .intro .intro__block2 {
+    width: 297px;
+    height: 49px;
+    background: transparent url(../img/oval.png) no-repeat left top;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    padding-left: 43px;
+    padding-bottom: 22px; }
+  .intro .intro__block1::placeholder, .intro .intro__block2::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF; }
+  .intro .search-form__button {
+    width: 171px;
+    height: 58px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase; }
+
+.benefis {
+  width: 1262px;
+  margin: 0 auto; }
+  .benefis .block2 .card__1 {
+    width: 66px;
+    height: 66px; }
+  .benefis .block2 .card__2 {
+    width: 65px;
+    height: 65px; }
+  .benefis .block2 .card__3 {
+    width: 58px;
+    height: 58px; }
